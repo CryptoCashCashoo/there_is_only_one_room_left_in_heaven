@@ -157,7 +157,7 @@ MonoBehaviour:
   _PowerUpSpeedMultiplayer: 1.5
   _MapBounds: {fileID: 0}
   _MaxTimeHit: 2
-  _HitPenalizationMultiplayer: 0.5
+  _HitPenalizationMultiplayer: 0.2
 --- !u!50 &4843627621145353822
 Rigidbody2D:
   serializedVersion: 4

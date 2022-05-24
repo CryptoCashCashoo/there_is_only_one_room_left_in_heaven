@@ -9,6 +9,7 @@ public enum ScenesEnum
     Level2,
     Level3,
     Level4,
+    EndGame,
 }
 
 public class SceneLoader : MonoBehaviour
@@ -33,5 +34,16 @@ public class SceneLoader : MonoBehaviour
     {
         SceneManager.LoadScene((int)ScenesEnum.Level4);
     }
+
+    public void EndGame()
+    {
+        SceneManager.LoadScene((int)ScenesEnum.EndGame);
+    }
+
+    public void LoadMenu()
+    {
+        SceneManager.LoadScene((int)ScenesEnum.MainMenu);
+    }
+
 
 }
