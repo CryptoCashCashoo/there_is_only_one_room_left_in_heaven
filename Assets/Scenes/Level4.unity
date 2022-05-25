@@ -6124,7 +6124,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 393602199}
   m_LocalRotation: {x: -0.0022193694, y: 0.0021871584, z: 0.0000048541356, w: 0.9999952}
-  m_LocalPosition: {x: -0.061831847, y: -118.04997, z: -10.005865}
+  m_LocalPosition: {x: -0.061831836, y: -118.04997, z: -10.005866}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -6614,6 +6614,7 @@ GameObject:
   m_Component:
   - component: {fileID: 546638065}
   - component: {fileID: 546638064}
+  - component: {fileID: 546638066}
   m_Layer: 0
   m_Name: AudioSourceEffects
   m_TagString: Untagged
@@ -6731,6 +6732,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &546638066
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 546638063}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a83900146f81dc16ab1183d78f91743a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &561893949
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14176,6 +14189,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1163729281}
   - component: {fileID: 1163729280}
+  - component: {fileID: 1163729282}
   m_Layer: 0
   m_Name: Sound
   m_TagString: Untagged
@@ -14293,6 +14307,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1163729282
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1163729279}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a83900146f81dc16ab1183d78f91743a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1169303790
 GameObject:
   m_ObjectHideFlags: 0
@@ -16226,7 +16252,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1674903178}
   m_LocalRotation: {x: -0.0022193694, y: 0.0021871584, z: 0.0000048541356, w: 0.9999952}
-  m_LocalPosition: {x: -0.061831847, y: -118.04997, z: -10.005865}
+  m_LocalPosition: {x: -0.061831836, y: -118.04997, z: -10.005866}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1064929592}
